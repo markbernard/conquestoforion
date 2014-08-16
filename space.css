@@ -1,0 +1,125 @@
+body {
+	font-size: 16px;
+	font-family: "Courier New";
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+    overflow: hidden;
+}
+
+ul.button_input {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+div.button_input {
+    margin: 0.25em;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("reload_bar.png");
+    background-position: -242px 0px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	width: 15em;
+	text-align: center;
+    display: inline-block;
+}
+
+div.button_disabled {
+    margin: 0.25em;
+    padding: 0px;
+	border: 1px solid #bbb;
+	cursor: text;
+	width: 15em;
+	text-align: center;
+    color: #ccc;
+    background-color: #bbb;
+    display: inline-block;
+}
+
+div.button_input_numeric {
+    margin: 0.25em;
+    padding: 0px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	width: 3em;
+	text-align: center;
+    display: inline-block;
+}
+
+div.button_disabled_numeric {
+    margin: 0.25em;
+    padding: 0px;
+	border: 1px solid #bbb;
+	cursor: text;
+	width: 3em;
+	text-align: center;
+    color: #ccc;
+    background-color: #bbb;
+    display: inline-block;
+}
+
+div.button_hidden {
+    margin: 0.25em;
+    padding: 0px;
+	border: 1px solid #bbb;
+	cursor: text;
+	width: 15em;
+	text-align: center;
+    color: #ccc;
+    background-color: #bbb;
+    display: inline-block;
+    visibility: hidden;
+}
+
+div.button_hidden_numeric {
+    margin: 0.25em;
+    padding: 0px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	width: 3em;
+	text-align: center;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.text {
+	border: 1px solid black;
+	position: absolute;
+}
+
+.messages {
+	background: #ddd;
+    color: #222;
+	border: 1px solid black;
+	position: absolute;
+	overflow: auto;
+}
+
+.messages p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.resources {
+    margin: 0px;
+    padding: 0px 0px 0px 2px;
+    list-style: none;
+}
+
+.recent {
+    font-size: 1.25em;
+    color: #04f;
+}
+
+.lost_resources {
+    font-size: 1.1em;
+    background-color: red;
+}
+
+.hidden_resources {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+}
